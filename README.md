@@ -23,7 +23,7 @@ cd mac-install
 If you're setting up a machine run the following:
 
 ```sh
-./setup-machine.sh
+./setup.sh
 ```
 
 ### Maintain Machine
@@ -31,7 +31,7 @@ If you're setting up a machine run the following:
 Keeping the machine up to date:
 
 ```sh
-./update-machine.sh
+./update.sh
 ```
 
 This will :  
