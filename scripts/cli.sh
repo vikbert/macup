@@ -11,4 +11,7 @@ echo "Installing CLIs"
 #brew install awscli
 
 # Azure CLI
-brew install azure-cli
+#brew install azure-cli
+
+## symfony cli
+brew install symfony-cli/tap/symfony-cli
