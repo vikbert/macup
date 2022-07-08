@@ -36,6 +36,7 @@ brew install --cask lunar
 brew install --cask cheatsheet
 brew install --cask alfred
 brew install --cask proxifier
+brew install --cask spectacle
 
 ##############################################
 ## Multi Media
