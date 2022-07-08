@@ -1,11 +1,10 @@
-# mac-install
+# MacUp
 
-My OS X on MacBook Pro install.
+My OS X on MacBook Pro install scripts
 
 ## Getting Started
 
-- Currently tested against [Big Sur](https://www.apple.com/macos/big-sur/)
-    - These scripts might work more or less on previous versions, down to [High Sierra](https://support.apple.com/en-us/HT211683), but are maintained with only the latest macOS in mind
+- Currently tested against [MacOS Monterey V12.4](https://www.apple.com)
 - Install [Xcode 12](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 
 

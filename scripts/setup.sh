@@ -20,19 +20,14 @@ echo
 echo "Enter your email address and press [ENTER]"
 read emailaddress
 echo
-echo "Enter your phone number and press [ENTER]"
-read phonenumber
-
-
-echo
 echo "Setting up machine..."
 
 # source ${MY_DIR}/xcode-license.sh
 
 # Note: Homebrew needs to be set up first
-source ${MY_DIR}/homebrew.sh
-source ${MY_DIR}/configuration-osx.sh "$fullname" $emailaddress "$phonenumber"
-source ${MY_DIR}/zsh.sh
+source ${MY_DIR}/00-homebrew.sh
+#source ${MY_DIR}/01-configuration-osx.sh "$fullname" $emailaddress
+source ${MY_DIR}/03-zsh.sh
 source ${MY_DIR}/git.sh "$fullname" $emailaddress
 source ${MY_DIR}/java.sh
 source ${MY_DIR}/scala.sh

@@ -11,11 +11,6 @@ if [ -z "${emailaddress}" ]; then
 else
     EMAIL_ADDRESS=$emailaddress
 fi
-if [ -z "${phonenumber}" ]; then
-    PHONE_NUMBER=$1
-else
-    PHONE_NUMBER=$phonenumber
-fi
 
 
 ###############################################################################
@@ -74,8 +69,8 @@ if [ ! -d "$HOME/Downloads/Screenshots" ]; then
 fi
 defaults write com.apple.screencapture location $HOME/Downloads/Screenshots; killall SystemUIServer
 
-echo "Configuring the lock screen message for user $USER with email address $EMAIL_ADDRESS and phone number $PHONE_NUMBER"
-sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Found this computer? Please contact $FULL_NAME at $EMAIL_ADDRESS - $PHONE_NUMBER"
+echo "Configuring the lock screen message for user $USER with email address $EMAIL_ADDRESS"
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Found this computer? Please contact $FULL_NAME at $EMAIL_ADDRESS"
 
 # Trackpad:
 # enable tap to click for this user and for the login screen
@@ -262,10 +257,10 @@ defaults write -g CGFontRenderingFontSmoothingDisabled -bool FALSE
 # sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
 
 # Enable Dark mode
-osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to true'
+#osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to true'
 
 # instead of only appearing on the last monitor you touched the dock, make cmd-tab app switcher show up on all monitors
-defaults write com.apple.Dock appswitcher-all-displays -bool true
+#defaults write com.apple.Dock appswitcher-all-displays -bool true
 
 killall Finder
 killall Dock

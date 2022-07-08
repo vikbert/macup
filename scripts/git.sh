@@ -1,7 +1,7 @@
 echo
 echo "Installing Git and associated tools"
 brew install git
-brew install --cask sourcetree
+#brew install --cask sourcetree
 brew install --cask kaleidoscope
 brew install --cask gitup
 brew install --cask github
