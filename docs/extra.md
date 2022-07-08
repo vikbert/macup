@@ -1,4 +1,4 @@
-jb # Extra changes to make to OS X
+# Extra changes to make to OS X
 
 
 ## Disable Diagnostics
