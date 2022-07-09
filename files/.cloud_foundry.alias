@@ -1,0 +1,3 @@
+alias cflogin='cf login -a https://api.system.02.cf.eu01.stackit.schwarz --sso'
+alias cflogin-ext='cf login -a https://api.system.01.cf.eu01.stackit.cloud --sso  --sso --skip-ssl-validation'
+
