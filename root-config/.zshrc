@@ -1,11 +1,10 @@
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/opt/homebrew/bin:$PATH
-export PATH="/Users/zhoux/.composer/vendor/bin:$PATH"
-export ZSH="$HOME/.oh-my-zsh"
+export PATH="~/.composer/vendor/bin:$PATH"
 
 #--------------------------------------------------
 # deno config 
 #--------------------------------------------------
-export DENO_INSTALL="/Users/zhoux/.deno"
+export DENO_INSTALL="~/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
 #--------------------------------------------------
@@ -20,11 +19,10 @@ export CPPFLAGS="-I/usr/local/opt/zlib/include -I/usr/local/opt/bzip2/include"
 #--------------------------------------------------
 # zsh theme config 
 #--------------------------------------------------
+export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 plugins=(git colored-man-pages brew macos zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
-source ~/.aliases
-source ~/.cloud_foundry.alias
 
 #--------------------------------------------------
 # theme: robbyrussell 
@@ -41,3 +39,9 @@ precmd() { print "" }
 PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
 PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info) 
 %F{8}❯ '
+
+#--------------------------------------------------
+# source aliases files
+#--------------------------------------------------
+source ~/.aliases
+source ~/.cloud_foundry.alias
