@@ -1,0 +1,144 @@
+{
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "terminal.integrated.fontFamily": "Fira Mono for Powerline, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "300",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.fontWeight": "400",
+  "editor.fontFamily": "Fira Code, Consolas, Courier New, monospace",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 120,
+  "editor.minimap.maxColumn": 180,
+  "editor.multiCursorModifier": "alt",
+  "editor.tabCompletion": "on",
+  "editor.formatOnType": true,
+  "editor.lineNumbers": "on",
+  "todo.timekeeping.finished.enabled": false,
+  "sync.gist": "c13b96c1db821afa17aa018af227ad68",
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.html.twig": "twig",
+    "*.svelte": "svelte",
+    "*.svx": "markdown",
+    ".editorconfig": "editorconfig",
+    "*.svtext": "svelte",
+    "*.sass": "sass"
+  },
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript"
+  ],
+  "markdown.styles": [
+    "markdown.css"
+  ],
+  "[markdown]": {
+    "editor.quickSuggestions": true,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "terminal.integrated.fontWeightBold": "normal",
+  "vetur.format.defaultFormatter.less": "none",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "prettier.useTabs": true,
+  "workbench.colorTheme": "Darcula Theme from IntelliJ",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.fontAliasing": "antialiased",
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#f8a62b",
+    "editor.background": "#302f2f",
+    "statusBar.background": "#424242"
+  },
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "",
+        "settings": {
+          "foreground": "#ffffff",
+          "fontStyle": "italic bold underline"
+        }
+      }
+    ]
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "composer.executablePath": "/usr/local/bin/composer",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "intelephense.format.enable": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "sass.format.setPropertySpace": false,
+  "scss.validate": false,
+  "sass.andStared": [
+    "active",
+    "focus",
+    "hover",
+    "nth-child"
+  ],
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "svelte.plugin.svelte.compilerWarnings": {
+    "unused-export-let": "error"
+  },
+  "extensions.ignoreRecommendations": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "window.newWindowDimensions": "inherit",
+  "window.closeWhenEmpty": true,
+  "files.autoSaveDelay": 5000,
+  "window.title": "${activeEditorShort}${separator}${rootPath}",
+  "php.executablePath": "/usr/bin/php",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "eslint.run": "onSave",
+  "eslint.format.enable": true,
+  "tabnine.experimentalAutoImports": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.activityBar.visible": false,
+  "prettier.enable": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.formatOnSave": true,
+  "terminal.integrated.cursorBlinking": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "window.zoomLevel": 2
+}
