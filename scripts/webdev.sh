@@ -29,3 +29,4 @@ brew install npm yarn
 sudo npm install --location=global n 2>/dev/null
 sudo n lts # currently latest LTS: v16.16.0
 sudo n 14 # currently most used release: v14.20.0
+npm install -g pnpm

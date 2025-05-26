@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>509</string>
+	<string>512</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>cd /Users/zhoux/sites/github/ticiqi
+					<string>cd ~/sites/github/ticiqi
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --new-window --app=file:///Users/zhoux/sites/github/ticiqi/dist/index.html</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -69,22 +69,6 @@
 					<string>/bin/zsh</string>
 					<key>source</key>
 					<string></string>
-				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>COMMAND_STRING</key>
-					<string>cd /Users/zhoux/sites/github/ticiqi
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --new-window --app=file:///Users/zhoux/sites/github/ticiqi/dist/index.html</string>
-					<key>CheckedForUserDefaultShell</key>
-					<true/>
-					<key>inputMethod</key>
-					<integer>0</integer>
-					<key>shell</key>
-					<string>/bin/zsh</string>
-					<key>source</key>
-					<string></string>
-					<key>temporary items path</key>
-					<string>/var/folders/c0/bk9rtbn51nb2h6qj3v83qgqm0000gp/T/2747844E-B6C3-4BEB-A3EE-E066712B7716/1/com.apple.RunShellScript</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.RunShellScript</string>
@@ -186,12 +170,10 @@
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>996.250000:252.000000</string>
+				<string>309.000000:252.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>

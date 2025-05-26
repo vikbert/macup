@@ -1,18 +1,11 @@
 {
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-  "terminal.integrated.fontFamily": "Fira Mono for Powerline, Monaco, 'Courier New', monospace",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeight": "300",
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
+  "window.newWindowDimensions": "inherit",
+  "window.closeWhenEmpty": true,
+  "window.title": "${activeEditorShort}${separator}${rootPath}",
   "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code",
   "editor.fontSize": 15,
   "editor.fontWeight": "400",
-  "editor.fontFamily": "Fira Code, Consolas, Courier New, monospace",
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
   "editor.wordWrapColumn": 120,
@@ -21,8 +14,42 @@
   "editor.tabCompletion": "on",
   "editor.formatOnType": true,
   "editor.lineNumbers": "on",
-  "todo.timekeeping.finished.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "",
+        "settings": {
+          "foreground": "#ffffff",
+          "fontStyle": "italic bold underline"
+        }
+      }
+    ]
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.cursorBlinking": true,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
   "sync.gist": "c13b96c1db821afa17aa018af227ad68",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
   "files.associations": {
     "*.js": "javascriptreact",
     "*.html.twig": "twig",
@@ -39,9 +66,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
   "eslint.validate": [
     "javascript"
   ],
@@ -52,7 +76,6 @@
     "editor.quickSuggestions": true,
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
-  "terminal.integrated.fontWeightBold": "normal",
   "vetur.format.defaultFormatter.less": "none",
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -60,7 +83,7 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "prettier.useTabs": true,
+  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Darcula Theme from IntelliJ",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.highlightModifiedTabs": true,
@@ -72,30 +95,14 @@
   },
   "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
   "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "",
-        "settings": {
-          "foreground": "#ffffff",
-          "fontStyle": "italic bold underline"
-        }
-      }
-    ]
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
-  "composer.executablePath": "/usr/local/bin/composer",
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": true,
-    "strings": true
-  },
   "intelephense.format.enable": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
@@ -121,24 +128,11 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.autoSave": "afterDelay",
-  "window.newWindowDimensions": "inherit",
-  "window.closeWhenEmpty": true,
-  "files.autoSaveDelay": 5000,
-  "window.title": "${activeEditorShort}${separator}${rootPath}",
-  "php.executablePath": "/usr/bin/php",
-  "typescript.updateImportsOnFileMove.enabled": "always",
   "eslint.run": "onSave",
   "eslint.format.enable": true,
-  "tabnine.experimentalAutoImports": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.activityBar.visible": false,
+  "prettier.useTabs": true,
   "prettier.enable": true,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
-  "editor.formatOnSave": true,
-  "terminal.integrated.cursorBlinking": true,
   "prettier.jsxSingleQuote": true,
-  "prettier.jsxBracketSameLine": true,
-  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-  "window.zoomLevel": 2
+  "prettier.jsxBracketSameLine": true
 }
