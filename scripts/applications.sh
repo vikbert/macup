@@ -35,6 +35,10 @@ install_brew_package "zsh"
 # ZSH Plugs
 install_brew_package "zsh-autosuggestions"
 install_brew_package "zsh-syntax-highlighting"
+install_brew_package "pyenv"
+install_brew_package "thefuck"
+install_brew_package "fzf"
+install_brew_package "zoxide"
 
 ## --cask packages
 install_brew_package "bitwarden" "--cask" 
