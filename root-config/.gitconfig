@@ -1,6 +1,6 @@
 [user]
-	email = you_email@gmail.com
-	name = vikbert
+	email = xun.zhou@mail.schwarz
+	name = Xun Zhou
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
@@ -8,3 +8,17 @@
 	process = git-lfs filter-process
 [pager]
 	branch = false
+[core]
+	excludesfile = /Users/zhoux/.gitignore_global
+	autocrlf = input
+	pager = diff-so-fancy | less --tabs=4 -RF
+[init]
+	defualtBranch = main
+[branch]
+	sort = -committerdate
+[column]
+	ui = auto
+[alias]
+	staash = stash --all
+	st = status
+	b = branch

@@ -1,8 +1,6 @@
-*~
 .DS_Store
+.vscode
 .idea
 .php_cs.cache
 .php-cs-fixer.cache
-.gitconfig
-
-
+Thumbs.db
