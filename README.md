@@ -15,9 +15,10 @@
 
 ---
 
-## Install
+## Getting started
 ```bash
-npm install 
+bash setup.sh
+
 ```
 
 

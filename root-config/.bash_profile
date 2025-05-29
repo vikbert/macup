@@ -1,4 +1,6 @@
-#alias composer="php /usr/local/bin/composer.phar"
+# homebrew
+export PATH="/opt/homebrew/bin:$PATH"
+
 # python egg cache
 export PYTHON_EGG_CACHE=~/.python-eggs
 
@@ -19,8 +21,6 @@ export PATH="$HOME/Library/Python/3.8/bin:$PATH"
 # icu4c
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
-
-# cargo
 
 # python pip
 export PATH="$HOME/Library/Python/2.7/bin:$PATH"

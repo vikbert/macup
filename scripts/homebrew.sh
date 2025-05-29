@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# Define a constant for the user's home directory
+readonly USER_HOME="/Users/zhoux"
+
 echo
 
 if hash brew 2>/dev/null; then
@@ -5,6 +10,9 @@ if hash brew 2>/dev/null; then
 else
   echo "Installing Homebrew..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  echo >> "${USER_HOME}/.zprofile"
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> "${USER_HOME}/.zprofile"
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 echo

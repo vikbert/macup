@@ -12,5 +12,5 @@ MY_DIR="$(dirname "$0")"
 # Note: Homebrew needs to be set up first
 source ${MY_DIR}/homebrew.sh
 source ${MY_DIR}/applications.sh
-source ${MY_DIR}/vscode.sh
+#source ${MY_DIR}/vscode.sh
 source ${MY_DIR}/webdev.sh
